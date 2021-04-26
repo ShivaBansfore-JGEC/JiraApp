@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        margin: 0px;
+    }
+
+    .box-1{
+        background-color: lightgreen;
+        height: 100px;
+    }
+
+    /* view port hieght*/
+    .box-2{
+        background-color: lightgray;
+        height: 20vh;
+        width: 50vw;
+    }
+
+    .parent{
+        height: 200px;
+        background-color: lightcoral;
+    }
+
+    /* percentage % -> relative to parent */
+    .child{
+        background-color: lightblue;
+        height:50%;
+        width:50%;
+    }
+
+
+</style>
+
+
+
+</head>
+<body>
+
+<!-- by default div takes 100% width -->
+<!-- by default div takes content height -->
+<!-- divs are block level elements --> 
+
+<div class="box-1"> </div>
+<div class="box-2"> </div>
+<div class="parent"> 
+    <div class="child"></div>
+</div>
+
+
+<!-- bydefault paragraph text is 1rem rem is better than px --> 
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ullam beatae tempora, corporis possimus a iste voluptas rem voluptatem, corrupti doloribus iusto eius praesentium distinctio reiciendis. Dolore maxime a iure?</p>
+
+</body>
+</html>
